@@ -1,0 +1,71 @@
+*
+    {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body
+    {font-size: 16px;
+    font-family: "나눔고딕","맑은고딕",sans-serif;}
+
+ul
+    {list-style-type: none;}
+
+header
+    {text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);}
+
+nav > ul > li
+    {float: left;
+    /*outline: 1px solid red;*/
+    width: 33.33%;}
+
+nav > ul > li > a
+    {display: block;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;}
+
+nav > ul > li.active > a
+    {color: yellow;
+    border-bottom: 4px dashed yellow;}
+
+header > h1
+    {margin-bottom: 20px;
+    font-size: 20px;}
+
+#tribe
+    {padding: 10px;
+    text-align: center;}
+
+#tribe > h1
+    {font-size: 20px;
+    margin-bottom: 10px;}
+
+.tribe_list
+    {overflow: hidden;}
+
+.tribe_list  li
+    {width: 50%;
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    margin-bottom: 10px;}
+
+.tribe_list  li > a >img
+    {width: 100%;
+    display: block;}
+
+.tribe_list  li > a > .caption
+    {background: rgba(0, 0, 0, 0.75);
+    color: white;
+    position: absolute;
+    width: calc(100% -10px);
+    padding: 1em;
+    left: 5px;
+    bottom: 0px;}
