@@ -62,32 +62,32 @@ const foodData = [
     { 
       imgUrl: 'images/chicken01.jpg',
       name: "프라이드",
-      type: "bird"
+      type: "chicken"
     },
     { 
       imgUrl: 'images/chicken02.jpg',
       name: "양념",
-      type: "bird"
+      type: "chicken"
     },
     { 
       imgUrl: 'images/chicken03.jpg',
       name: "간장",
-      type: "bird"
+      type: "chicken"
     },
     { 
       imgUrl: 'images/chicken04.jpg',
       name: "허니",
-      type: "bird"
+      type: "chicken"
     },
     { 
       imgUrl: 'images/chicken05.jpg',
       name: "갈릭",
-      type: "bird"
+      type: "chicken"
     },
     { 
       imgUrl: 'images/chicken06.jpg',
       name: "후라이드반양념반",
-      type: "bird"
+      type: "chicken"
     },
   ];
 
@@ -99,7 +99,7 @@ const foodData = [
         html +=
         `<li>
           <a href="#">
-            <img src="${foodData[i].imgUrl}
+            <img src="${foodData[i].imgUrl}"
             alt="${foodData[i].name}">
             <div class="caption">
             <h4>${foodData[i].name}</h4>
